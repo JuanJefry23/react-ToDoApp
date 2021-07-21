@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Donegal+One&family=Tourney:wght@800&display=swap");
+
+body {
+  background-image: linear-gradient(to right, #1d4350, #a43931);
+  color: #fff;
+  font-family: "Tourney", cursive;
+  padding: 50px;
+}
+
+p {
+  cursor: pointer;
+  margin: 0px;
+}
+
+.list-group-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Este estilo se le agregará al parrafo en caso el "todo" este completado(true) basta con dar click sobre el parrafo*/
+.complete {
+  text-decoration: line-through;
+}
+
+.btn-add {
+  color: #e8f1efea;
+  background-color: rgb(46, 72, 124);
+  border-color: #fff;
+}
