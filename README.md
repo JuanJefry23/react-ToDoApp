@@ -1,4 +1,4 @@
-# TODO APP
+# TODO APP 📝 
 
 It is an app where the user can write the list of things they need to do in the input and after clicking the button "Agregar" the pending is added to the "Todo List".
 
